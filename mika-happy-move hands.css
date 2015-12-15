@@ -1,0 +1,140 @@
+#invis{visibility:hidden;}
+svg {
+  width: 350px;
+  height:400px;
+  border: 10px solid #ccc;
+  float: left;
+  margin-right: 20px;
+}
+/* Chrome, Safari, Opera */
+
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownLeftHand {
+  from {
+    transform-origin: -70px 0px 0px;
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: -70px 0px 0px;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownRight {
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInDownRightHand{
+  from {
+    transform-origin: 70px 0px 0px;
+    transform: rotate3d(0, 0, 1, 20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: 70px 0px 0px;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateInDownLeft {animation-name: rotateInDownLeft;}
+
+#left-arm-path    {animation: rotateInDownRight 2s infinite alternate;}
+#left-hand-path  {animation: rotateInDownRightHand 2s infinite alternate;}
+#right-arm-path   {animation: rotateInDownLeft 2s infinite alternate;}
+#right-hand-path  {animation: rotateInDownLeftHand 2s infinite alternate;}
+#invis{visibility:hidden;}
+svg {
+  width: 350px;
+  height:400px;
+  border: 10px solid #ccc;
+  float: left;
+  margin-right: 20px;
+}
+/* Chrome, Safari, Opera */
+
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownLeftHand {
+  from {
+    transform-origin: -70px 0px 0px;
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: -70px 0px 0px;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownRight {
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInDownRightHand{
+  from {
+    transform-origin: 70px 0px 0px;
+    transform: rotate3d(0, 0, 1, 20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: 70px 0px 0px;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateInDownLeft {animation-name: rotateInDownLeft;}
+
+#left-arm-path    {animation: rotateInDownRight 2s infinite alternate;}
+#left-hand-path  {animation: rotateInDownRightHand 2s infinite alternate;}
+#right-arm-path   {animation: rotateInDownLeft 2s infinite alternate;}
+#right-hand-path  {animation: rotateInDownLeftHand 2s infinite alternate;}
