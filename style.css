@@ -193,3 +193,17 @@ svg {
   }
 }
 
+
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
