@@ -78,7 +78,7 @@ svg {
     /* border: 10px solid #ccc; */
     /* float: left; */
     /* margin-right: 20px; */
-  animation-name: fadeInRight 2s forwards;
+  animation: fadeInRight 2s forwards;
 }
 
 }
