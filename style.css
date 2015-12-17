@@ -43,6 +43,7 @@ body{
   background: #629bdd;
   font: 1.5em/1 Century Gothic, Verdana, sans-serif;
   text-align: center;
+  animation: tada 2s forwards;
 }
 .speech-bubble:before, .speech-bubble:after {
   position: absolute;
@@ -140,3 +141,29 @@ svg {
 #left-hand-path  {animation: rotateInDownRightHand 2s infinite alternate;}
 #right-arm-path   {animation: rotateInDownLeft 2s infinite alternate;}
 #right-hand-path  {animation: rotateInDownLeftHand 2s infinite alternate;}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  animation: tada 2s forwards;
+}
