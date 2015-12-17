@@ -70,14 +70,14 @@ svg {
 
     position: absolute;
     /* right: -45%; */
-    left: 120px;
-    /*top: 20%;*/
-    top: -56px;
+    left: 70px;
+    /* top: 20%; */
+    top: -150px;
     position: relative;
-    /* width: 100%; */
+    width: 150%;
     /* border: 10px solid #ccc; */
     /* float: left; */
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 /* Chrome, Safari, Opera */
 
