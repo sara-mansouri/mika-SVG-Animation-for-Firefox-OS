@@ -43,7 +43,7 @@ body{
   background: #629bdd;
   font: 1.5em/1 Century Gothic, Verdana, sans-serif;
   text-align: center;
-  animation: tada 2s forwards;
+  animation: tada 2s 2s forwards;
 }
 .speech-bubble:before, .speech-bubble:after {
   position: absolute;
