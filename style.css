@@ -78,6 +78,9 @@ svg {
     /* border: 10px solid #ccc; */
     /* float: left; */
     /* margin-right: 20px; */
+  animation-name: fadeInRight 2s forwards;
+}
+
 }
 /* Chrome, Safari, Opera */
 
@@ -164,6 +167,17 @@ svg {
   }
 }
 
-.tada {
-  animation: tada 2s forwards;
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
+
