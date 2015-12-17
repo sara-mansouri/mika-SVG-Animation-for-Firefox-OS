@@ -36,7 +36,8 @@ body{
   position: relative;
   margin: .5em auto;
   padding: 1em;
-  width: 70%; height: 4em;
+  width: 100%; 
+  height: 4em;
   border-radius: .25em;
   transform: rotate(-4deg) rotateY(15deg);
   background: #629bdd;
