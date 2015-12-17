@@ -19,12 +19,13 @@ body{
 #over{
    
   position: absolute;
-  top: 200px;
+  top: 400px;
+  left: 120px;
   width: 180px;
   /*top: 40%;*/
   /*width: 80%;*/
-  margin: 10%;
-  bottom: 33%;
+  /*margin: 10%;*/
+  /*bottom: 33%;*/
 /*
   background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
@@ -64,14 +65,17 @@ body{
 
 #invis{visibility:hidden;}
 svg {
-  position: absolute;
-  right:-30%;
-  top:20%;
-  width: 90%;
- 
-/*  border: 10px solid #ccc;*/
-/*  float: left;*/
-  margin-right: 20px;
+
+    position: absolute;
+    /* right: -45%; */
+    left: 120px;
+    /*top: 20%;*/
+    top: -56px;
+    position: relative;
+    /* width: 100%; */
+    /* border: 10px solid #ccc; */
+    /* float: left; */
+    margin-right: 20px;
 }
 /* Chrome, Safari, Opera */
 
