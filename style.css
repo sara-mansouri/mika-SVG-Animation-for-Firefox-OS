@@ -200,13 +200,15 @@ svg {
 
 @keyframes rotateInDownLeft {
   from {
-    transform-origin: left bottom;
+   /* transform-origin: left bottom;*/
+    transform-origin: 0px 3px;
     transform: rotate(-20deg);
     opacity: 1;
   }
 
   to {
-    transform-origin: left bottom;
+   /* transform-origin: left bottom;*/
+    transform-origin: 0px 3px;
     transform: none;
     opacity: 1;
   }
