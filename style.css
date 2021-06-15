@@ -88,13 +88,15 @@ svg {
 
 @keyframes rotateInDownLeft {
   from {
-    transform-origin: left bottom;
+   /* transform-origin: left bottom;*/
+    transform-origin: 0px 3px;
     transform: rotate(-20deg);
     opacity: 1;
   }
 
   to {
-    transform-origin: left bottom;
+    /*transform-origin: left bottom;*/
+    transform-origin: 0px 3px;
     transform: none;
     opacity: 1;
   }
@@ -114,13 +116,15 @@ svg {
 }
 @keyframes rotateInDownRight {
   from {
-    transform-origin: right bottom;
+    /*transform-origin: right bottom;*/
+    transform-origin: 30px 0px;
     transform: rotate3d(0, 0, 1, 20deg);
     opacity: 1;
   }
 
   to {
-    transform-origin: right bottom;
+    /*transform-origin: right bottom;*/
+    transform-origin: 30px 0px;
     transform: none;
     opacity: 1;
   }
